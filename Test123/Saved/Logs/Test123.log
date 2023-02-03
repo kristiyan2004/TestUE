@@ -1403,3 +1403,104 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.03-10.05.22:334][654]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
 [2023.02.03-10.05.22:334][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.02.03-10.06.14:715][413]LogDerivedDataCache: C:/Users/KrisPC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.089 and deleted 0 files with total size 0 MiB. Scanned 2209 files in 2195 folders with total size 52 MiB.
+[2023.02.03-10.24.38:790][196]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.02.03-10.24.38:794][196]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.02.03-10.24.38:800][197]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.02.03-10.24.43:357][740]LogContentBrowser: Attempting asset rename: NewMaterial -> Kristiyan_Material2
+[2023.02.03-10.24.43:357][740]LogContentBrowser: End creating deferred item NewMaterial
+[2023.02.03-10.24.44:542][870]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Kristiyan_Material2.Kristiyan_Material2
+[2023.02.03-10.24.44:546][870]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.03-10.24.44:675][870]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.03-10.24.44:675][870]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.44:675][870]MaterialEditorStats: Shader Count: 0
+[2023.02.03-10.24.44:680][870]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: ================================================
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Total job queries 198, among them cache hits 51 (25.76%)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Tracking 140 distinct input hashes that result in 103 distinct outputs (73.57%)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: RAM used: 1.11 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.14%
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Shaders Compiled: 140
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Jobs assigned 143, completed 140 (97.90%)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Average time worker was idle: 51.84 s
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Time job spent in pending queue: average 3.53 s, longest 13.67 s
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Job execution time: average 2.94 s, max 10.59 s
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Job life time (pending + execution): average 6.55 s, max 16.01
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.44 s
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Jobs were issued in 105 batches (only local compilation was used), average 1.36 jobs/batch
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Average processing rate: 5.73 jobs/sec
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Total thread time: 138.24 s
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Total thread preprocess time: 6.74 s
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Percentage time preprocessing: 4.88%
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Effective parallelization: 5.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.93 sec, max 1.93 sec, min 1.93 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.87 sec, max 1.87 sec, min 1.87 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.56 sec, max 2.01 sec, min 1.15 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 19.23% of total time (compiled   17 times, average 1.56 sec, max 2.01 sec, min 1.15 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.70% of total time (compiled   19 times, average 1.07 sec, max 1.80 sec, min 0.60 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.54% of total time (compiled   19 times, average 0.91 sec, max 1.28 sec, min 0.61 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.69% of total time (compiled   14 times, average 0.86 sec, max 1.14 sec, min 0.58 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.70% of total time (compiled   15 times, average 0.62 sec, max 1.17 sec, min 0.39 sec)
+[2023.02.03-10.24.45:493][915]LogShaderCompilers: Display: ================================================
+[2023.02.03-10.24.45:706][929]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.45:706][929]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.03-10.24.45:706][929]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.45:706][929]MaterialEditorStats: Shader Count: 3
+[2023.02.03-10.24.45:795][935]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.02.03-10.24.45:795][935]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.45:795][935]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.03-10.24.45:795][935]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.45:795][935]MaterialEditorStats: Shader Count: 4
+[2023.02.03-10.24.46:035][953]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.03-10.24.46:035][953]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.46:035][953]MaterialEditorStats: Shader Count: 0
+[2023.02.03-10.24.46:071][955]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.02.03-10.24.46:071][955]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.46:071][955]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.03-10.24.46:071][955]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.46:071][955]MaterialEditorStats: Shader Count: 2
+[2023.02.03-10.24.47:087][ 41]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.03-10.24.47:087][ 41]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.47:087][ 41]MaterialEditorStats: Shader Count: 0
+[2023.02.03-10.24.47:852][ 87]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.47:852][ 87]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.03-10.24.47:852][ 87]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.47:852][ 87]MaterialEditorStats: Shader Count: 3
+[2023.02.03-10.24.47:967][ 93]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.02.03-10.24.47:967][ 93]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.47:967][ 93]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.03-10.24.47:967][ 93]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.47:967][ 93]MaterialEditorStats: Shader Count: 4
+[2023.02.03-10.24.49:735][234]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.03-10.24.49:739][234]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.03-10.24.49:739][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.49:739][234]MaterialEditorStats: Shader Count: 0
+[2023.02.03-10.24.51:227][370]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.02.03-10.24.51:228][370]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.51:228][370]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.03-10.24.51:228][370]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.51:228][370]MaterialEditorStats: Shader Count: 4
+[2023.02.03-10.24.52:253][446]LogMaterialEditor: Saving and Compiling material Kristiyan_Material2
+[2023.02.03-10.24.52:785][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.02.03-10.24.53:419][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.03-10.24.53:426][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.03-10.24.54:998][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Kristiyan_Material2" FILE="C:/Users/KrisPC/OneDrive/Desktop/UE5 Test/TestUE/Test123/Content/Materials/Kristiyan_Material2.uasset" SILENT=true
+[2023.02.03-10.24.54:999][446]LogSavePackage: Moving output files for package: /Game/Materials/Kristiyan_Material2
+[2023.02.03-10.24.54:999][446]LogSavePackage: Moving 'C:/Users/KrisPC/OneDrive/Desktop/UE5 Test/TestUE/Test123/Saved/Kristiyan_Material20CFEF707404A8C3F00F4D787782B9230.tmp' to 'C:/Users/KrisPC/OneDrive/Desktop/UE5 Test/TestUE/Test123/Content/Materials/Kristiyan_Material2.uasset'
+[2023.02.03-10.24.55:004][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.57 sec (total: 3.56 sec)
+[2023.02.03-10.24.55:008][446]AssetCheck: New page: Asset Save: Kristiyan_Material2
+[2023.02.03-10.24.55:008][446]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Kristiyan_Material2.Kristiyan_Material2
+[2023.02.03-10.24.55:008][446]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.02.03-10.24.55:008][446]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.02.03-10.24.55:008][446]MaterialEditorStats: MaxSampler: 260 instructions
+[2023.02.03-10.24.55:008][446]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.03-10.24.55:008][446]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.03-10.24.55:008][446]MaterialEditorStats: Shader Count: 16
+[2023.02.03-10.24.56:106][513]LogSlate: Window 'Kristiyan_Material2' being destroyed
+[2023.02.03-10.24.56:111][513]LogSlate: Window 'Kristiyan_Material2' being destroyed
+[2023.02.03-10.24.56:124][513]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.02.03-10.24.56:124][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
